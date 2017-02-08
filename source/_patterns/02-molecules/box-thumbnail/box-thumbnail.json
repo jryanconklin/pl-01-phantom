@@ -1,5 +1,6 @@
 {
-  "description": "A photo of a computer",
-  "title": "Magna",
-  "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+  "item": {
+    "title": "Magna",
+    "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+  }
 }
