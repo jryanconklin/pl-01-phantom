@@ -5,51 +5,64 @@
       "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
       "image": "/../../images/pic01.jpg",
       "alt": "An Image of a Laptop",
-      "style": "box-thumbnail__image--lightpink"
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Lorem",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic02.jpg",
+      "alt": "An Image of a Wave",
+      "style": "box-thumbnail__image--"
+
     },
     {
       "title": "Feugiat",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic03.jpg",
+      "alt": "An Image of a Escalator",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Tempus",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic04.jpg",
+      "alt": "An Image of a Hipster",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Aliquam",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic05.jpg",
+      "alt": "An Image of a Iced Over Plant",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Veroeros",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic06.jpg",
+      "alt": "An Image of a Road Toward a Mountain",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Ipsum",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic07.jpg",
+      "alt": "An Image of a Desk",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Dolor",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic08.jpg",
+      "alt": "An Image of a City from Above",
+      "style": "box-thumbnail__image--"
     },
     {
       "title": "Nullam",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-    },
-    {
-      "title": "Ultricies",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-    },
-    {
-      "title": "Dictum",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-    },
-    {
-      "title": "Pretium",
-      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic09.jpg",
+      "alt": "An Image of a Mountain",
+      "style": "box-thumbnail__image--"
     }
   ]
 }
