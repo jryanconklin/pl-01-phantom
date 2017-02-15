@@ -1,66 +1,31 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import '../css/font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+//
+// Config
+//
+@import "00-config";
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+//
+// Start libs
+// All found at the include paths declared in `gulpconfig.js` under `css.includePaths`.
+// Usually it's `['./bower_components', './node_modules']`
+// Add more libs with `bower install --save {NAME-OF-LIB}`
+//
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+// Better style reset, https://github.com/JohnAlbin/normalize-scss
+@import "normalize-scss/sass/normalize";
+// Grid system, https://github.com/at-import/Singularity
+@import "singularity/stylesheets/singularitygs";
+// A cleaner way to do breakpoints/media queries, http://breakpoint-sass.com/,
+@import "breakpoint-sass/stylesheets/breakpoint";
+// Helpful mixins, http://bourbon.io/docs/
+@import "bourbon/app/assets/stylesheets/bourbon";
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: (
-			gutters: 2em
-		),
-		breakpoints: (
-			medium: (
-				grid: (
-					gutters: 1.5em
-				)
-			),
-			small: (
-				grid: (
-					gutters: 1em
-				)
-			)
-		)
-	));
+//
+// End libs
+//
 
-// Base.
-
-	@import 'base/page';
-	@import 'base/typography';
-
-// Component.
-
-	@import 'components/section';
-	@import 'components/icon';
-	@import 'components/list';
-	@import 'components/form';
-	@import 'components/box';
-	@import 'components/image';
-	@import 'components/table';
-	@import 'components/button';
-	@import 'components/tiles';
-
-// Layout.
-
-	@import 'layout/header';
-	@import 'layout/menu';
-	@import 'layout/main';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
+//
+// Start _patterns includes
+// Run through the entire patterns collection, finding all scss files included therein
+//
+@import "phantom";
+@import "../source/**/*.scss";

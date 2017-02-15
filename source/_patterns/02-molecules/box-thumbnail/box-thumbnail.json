@@ -1,6 +1,9 @@
 {
-  "item": {
+  "thumbnail": {
     "title": "Magna",
-    "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+    "image": "",
+    "alt": "",
+    "style": ""
   }
 }
