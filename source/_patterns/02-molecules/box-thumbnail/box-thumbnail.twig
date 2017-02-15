@@ -1,11 +1,11 @@
-<article class="{{random(["style1", "style2", "style3", "style4", "style5", "style6"])}}">
-  <span class="image">
-    {% include "@atoms/_img.twig" with {imageStyleName: "small" } %}
+<article class="box-thumbnail__article">
+  <span class="box-thumbnail__image">
+    <img class="{{ thumbnail.style }}" src="{{ thumbnail.image }}" alt="{{ thumbnail.alt }}">
   </span>
-  <a href="generic.html">
-    <h2>{{thumbnail.title}}</h2>
-    <div class="content">
-      <p>{{thumbnail.text}}</p>
+  <a class="box-thumbnail__link" href="#">
+    <h2 class="box-thumbnail__title">{{ thumbnail.title }}</h2>
+    <div class="box-thumbnail__content">
+      <p>{{ thumbnail.content }}</p>
     </div>
   </a>
 </article>

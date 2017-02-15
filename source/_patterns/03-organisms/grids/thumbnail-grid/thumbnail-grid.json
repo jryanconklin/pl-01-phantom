@@ -1,16 +1,55 @@
 {
-  "items": [
+  "thumbnails": [
     {
       "title": "Magna",
-      "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+      "image": "/../../images/pic01.jpg",
+      "alt": "An Image of a Laptop",
+      "style": "box-thumbnail__image--lightpink"
     },
     {
       "title": "Lorem",
-      "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
     },
     {
       "title": "Feugiat",
-      "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Tempus",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Aliquam",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Veroeros",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Ipsum",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Dolor",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Nullam",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Ultricies",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Dictum",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "title": "Pretium",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
     }
   ]
 }

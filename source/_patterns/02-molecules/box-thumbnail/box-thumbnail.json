@@ -1,9 +1,9 @@
 {
   "thumbnail": {
     "title": "Magna",
-    "text": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
-    "image": "",
-    "alt": "",
-    "style": ""
+    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+    "image": "/../../images/pic01.jpg",
+    "alt": "An Image of a Laptop",
+    "style": "box-thumbnail__image--lightpink"
   }
 }
