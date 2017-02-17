@@ -16,7 +16,7 @@
   margin: 2.5em 0 0 2.5em;
 }
 
-// Link Style
+// Link Style AKA .tiles article > a
 .box-thumbnail__link {
   display: -moz-flex;
   display: -webkit-flex;
@@ -52,15 +52,38 @@
   z-index: 3;
 }
 
-// Title
+.box-thumbnail__link:last-child {
+  margin: 0;
+}
+
+.box-thumbnail__link:hover {
+  color: #ffffff;
+}
+
+// Title AKA .tiles article > a h2
 .box-thumbnail__title {
-
+  margin: 0;
 }
 
-// Content
+// Content AKA .tiles article > a .content
 .box-thumbnail__content {
-
+  -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
+  -ms-transition: max-height 0.5s ease, opacity 0.5s ease;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  width: 100%;
+  max-height: 0;
+  line-height: 1.5;
+  margin-top: 0.35em;
+  opacity: 0;
 }
+
+.box-thumbnail__content:last-child {
+  margin-bottom: 0;
+}
+
+
+
 
 // Image Styles AKA .tiles article > .image
 .box-thumbnail__image {
@@ -127,26 +150,26 @@
 }
 
 // Modifier Classes
-.box-thumbnail__image--lightpink {
+.box-thumbnail__image--lightpink:before {
   background-color: #f2849e;
 }
 
-.box-thumbnail__image--lightblue {
+.box-thumbnail__image--lightblue:before {
   background-color: #7ecaf6;
 }
 
-.box-thumbnail__image--green {
+.box-thumbnail__image--green:before {
   background-color: #7bd0c1;
 }
 
-.box-thumbnail__image--pink {
+.box-thumbnail__image--pink:before {
   background-color: #c75b9b;
 }
 
-.box-thumbnail__image--purple {
+.box-thumbnail__image--purple:before {
   background-color: #ae85ca;
 }
 
-.box-thumbnail__image--blue {
+.box-thumbnail__image--blue:before {
   background-color: #8499e7;
 }
