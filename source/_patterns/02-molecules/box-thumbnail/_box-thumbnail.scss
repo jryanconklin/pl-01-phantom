@@ -86,7 +86,7 @@
 
 
 // Image Styles AKA .tiles article > .image
-.box-thumbnail__image {
+.box-thumbnail__span {
   -moz-transition: -moz-transform 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease;
   -ms-transition: -ms-transform 0.5s ease;
@@ -98,13 +98,13 @@
   overflow: hidden;
 }
 
-.box-thumbnail__article > .box-thumbnail__image img {
+.box-thumbnail__article > .box-thumbnail__span img {
   display: block;
   width: 100%;
 }
 
 // Image Transform
-.box-thumbnail__image:before {
+.box-thumbnail__span:before {
   -moz-pointer-events: none;
   -webkit-pointer-events: none;
   -ms-pointer-events: none;
@@ -125,7 +125,7 @@
   opacity: 0.8;
 }
 
-.box-thumbnail__image:after {
+.box-thumbnail__span:after {
   -moz-pointer-events: none;
   -webkit-pointer-events: none;
   -ms-pointer-events: none;
@@ -150,26 +150,26 @@
 }
 
 // Modifier Classes
-.box-thumbnail__image--lightpink:before {
+.box-thumbnail__image--lightpink > :before {
   background-color: #f2849e;
 }
 
-.box-thumbnail__image--lightblue:before {
+.box-thumbnail__image--lightblue > :before {
   background-color: #7ecaf6;
 }
 
-.box-thumbnail__image--green:before {
+.box-thumbnail__image--green > :before {
   background-color: #7bd0c1;
 }
 
-.box-thumbnail__image--pink:before {
+.box-thumbnail__image--pink > :before {
   background-color: #c75b9b;
 }
 
-.box-thumbnail__image--purple:before {
+.box-thumbnail__image--purple > :before {
   background-color: #ae85ca;
 }
 
-.box-thumbnail__image--blue:before {
+.box-thumbnail__image--blue > :before {
   background-color: #8499e7;
 }
