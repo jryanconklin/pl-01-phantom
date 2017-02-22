@@ -1,6 +1,7 @@
-{% extends "@templates/site-layout.twig" %}
-{% block content %}
+{% include "@organisms/site-header.twig" %}
 
-  {% include "@organisms/caption-grid-block.twig" %}
+{% include "@organisms/thumbnail-grid.twig" %}
 
-{% endblock %}
+{% include "@organisms/site-footer.twig" %}
+
+
