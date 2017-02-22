@@ -54,6 +54,36 @@
       "name": "$c-black",
       "value": "black",
       "comment": ""
+    },
+    {
+      "name": "$c-mauvelous",
+      "value": "#f2849e",
+      "comment": ""
+    },
+    {
+      "name": "$c-malibu",
+      "value": "#7ecaf6",
+      "comment": ""
+    },
+    {
+      "name": "$c-montecarlo",
+      "value": "#7bd0c1",
+      "comment": ""
+    },
+    {
+      "name": "$c-mulberry",
+      "value": "#c75b9b",
+      "comment": ""
+    },
+    {
+      "name": "$c-eastside",
+      "value": "#ae85ca",
+      "comment": ""
+    },
+    {
+      "name": "$c-portage",
+      "value": "#8499e7",
+      "comment": ""
     }
   ],
   "meta": {
