@@ -196,7 +196,7 @@ module.exports = {
   },
   drupal: {
     enabled: false,
-    themeFile: 'patternlab.info.yml',
+    themeFile: 'pl-phantom-clone.info.yml',
     // when these files change
     watch: [
       'templates/**',
